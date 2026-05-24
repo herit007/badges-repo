@@ -11,12 +11,21 @@ This repository specifically focuses on:
 - **Heart On Your Sleeve**: Encouraging community engagement and appreciation.
 - **Open Sourcerer**: A roadmap for contributing to various open-source projects.
 
-## 🚀 One-Click Badge Claiming
-To get your badges in minutes, run the automator:
-```bash
-python3 badge_automator.py
-```
-This script will open the right pages and give you the exact text to paste.
+## 🚀 One-Click Badge Claiming (Cloud/Online)
+If you don't have a local setup, you can run the automator directly in the cloud for free using **GitHub Codespaces**:
+1.  Click the green **"Code"** button at the top of this page.
+2.  Select the **"Codespaces"** tab.
+3.  Click **"Create codespace on main"**.
+4.  Once it opens, type this in the terminal at the bottom:
+    ```bash
+    python3 badge_automator.py
+    ```
+
+## 📄 No-Code Method (Direct Links)
+If you prefer to just use your browser without running any scripts:
+1.  Open the [**EASY_WINS.md**](./EASY_WINS.md) file right here on GitHub.
+2.  Click the direct links I've provided.
+3.  Copy and paste the templates provided in that file.
 
 ## 🛠 Tools Included
 
