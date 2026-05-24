@@ -1,0 +1,18 @@
+name: Badge Progress Tracker
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  check-progress:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Badge Info
+        run: |
+          python3 badge_info.py --list
+          echo "Achievement Hub is active and tracking!"

@@ -11,6 +11,13 @@ This repository specifically focuses on:
 - **Heart On Your Sleeve**: Encouraging community engagement and appreciation.
 - **Open Sourcerer**: A roadmap for contributing to various open-source projects.
 
+## 🚀 One-Click Badge Claiming
+To get your badges in minutes, run the automator:
+```bash
+python3 badge_automator.py
+```
+This script will open the right pages and give you the exact text to paste.
+
 ## 🛠 Tools Included
 
 ### `badge_info.py`
